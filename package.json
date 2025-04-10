@@ -1,0 +1,27 @@
+{
+  "name": "@mondayorsunday/keycloak-cjs",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "esbuild index.ts --platform=node --bundle --format=cjs --outfile=index.js"
+  },
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "26.1.4"
+  },
+  "description": "I try to import the package @keycloak/keycloak-admin-client@26.1.4 and it throws ERR_REQUIRE_ESM with my NestJS server application (use commonjs).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranquochuy93/keycloak-cjs.git"
+  },
+  "keywords": [
+    "keycloak",
+    "cjs"
+  ],
+  "author": "tranquochuy93",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranquochuy93/keycloak-cjs/issues"
+  },
+  "homepage": "https://github.com/tranquochuy93/keycloak-cjs#readme"
+}
