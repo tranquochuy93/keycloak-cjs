@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/tranquochuy93/keycloak-cjs/issues"
   },
-  "homepage": "https://github.com/tranquochuy93/keycloak-cjs#readme"
+  "homepage": "https://github.com/tranquochuy93/keycloak-cjs#readme",
+  "devDependencies": {
+    "esbuild": "0.25.2"
+  }
 }
